@@ -5,3 +5,130 @@ html, body{
 	height: 100%;
 	width: 100%;
 }
+
+
+h1 {
+	font-family: 'Nosifer', cursive;
+	font-size: 25px;
+}
+div, section, aside {
+	background-color: #add;
+}
+header {
+	background-color: #abb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 5%;
+}
+section	{
+	border: 2px solid white;
+	height: 90%;
+	width: 50%;
+	float: left;
+}
+aside {
+	border: 2px solid white;
+	height: 90%;
+	width: 50%;
+	float: left;
+}
+footer {
+	background-color: #abc;
+	clear: both;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 5%;
+}
+.container {
+	border: 5px solid #888;
+	height: 100%;
+	margin: auto 25px;
+}
+#hangman {
+	border: 5px solid #888;
+	background-image: url("assets/images/hangman.0.jpeg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 80%;
+	width: 100%;
+}
+.phrase {
+	border: 5px solid #888;
+	background-repeat: no-repeat;
+	height: 20%;
+	width: 100%;
+}
+.alphabet {
+	border: 5px solid #ccc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 20%;
+	width: 100%;
+	overflow: auto;
+}
+.char {
+	border: 2px solid #fff;
+	font-family: 'Oxygen';
+	font-size: 25px;
+}
+.phrase {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.computerPick {
+	border: 5px solid #cad;
+	text-align: center;
+	font-size: 35px;
+	color: #add;
+	height: 50%;
+	width: 50%;			
+}
+header {
+		color: #fff;
+		-webkit-animation: change 5s infinite; /* Chrome, Safari, Opera */
+		animation: change 3s infinite;
+}	
+@-webkit-keyframes change {
+	from {
+		color: #fff;
+		background-color: #abb;
+	}
+	to {
+		color: red;
+		background-color: pink;
+	}
+}
+@-webkit-keyframes change {
+	from {
+		color: #fff;
+		background-color: #abb;
+	}
+	to {
+		color: red;
+		background-color: pink;
+	}
+}
+@keyframes change {
+	from {
+		color: #fff;
+		background-color: #abb;
+	}
+	to {
+		color: red;
+		background-color: pink;
+	}
+}
+@keyframes change {
+	from {
+		color: #fff;
+		background-color: #abb;
+	}
+	to {
+		color: red;
+		background-color: pink;
+	}
+}
