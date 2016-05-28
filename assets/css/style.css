@@ -6,13 +6,12 @@ html, body{
 	width: 100%;
 }
 
-
 h1 {
 	font-family: 'Nosifer', cursive;
 	font-size: 25px;
 }
 div, section, aside {
-	background-color: #add;
+	background-color: black;
 }
 header {
 	background-color: #abb;
@@ -22,13 +21,13 @@ header {
 	height: 5%;
 }
 section	{
-	border: 2px solid white;
+	border: 2px solid #ccc;
 	height: 90%;
 	width: 50%;
 	float: left;
 }
 aside {
-	border: 2px solid white;
+	/*border: 1px solid white;*/
 	height: 90%;
 	width: 50%;
 	float: left;
@@ -46,46 +45,86 @@ footer {
 	height: 100%;
 	margin: auto 25px;
 }
-#hangman {
-	border: 5px solid #888;
-	background-image: url("assets/images/hangman.0.jpeg");
+.score {
+	/*background-image: url("../images/nfl.jpeg");*/
+	background-image: url("../images/field.jpeg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	height: 80%;
+	text-align: center;
+	height: 85%;
 	width: 100%;
 }
-.phrase {
-	border: 5px solid #888;
+#timer {
+	border: 3px solid white;
+	border-radius: 5%;
+	color: orange;
+}
+#hangman {
+	/*border: 5px solid #888;*/
+	background-image: url("../images/hangman.0.jpeg");
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	height: 20%;
+	height: 90%;
 	width: 100%;
 }
 .alphabet {
 	border: 5px solid #ccc;
+	background-image: url("../images/field.jpeg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 20%;
+	height: 15%;
 	width: 100%;
 	overflow: auto;
 }
 .char {
-	border: 2px solid #fff;
+	border: 1px solid #dee;
+	color: #7cfc00;
 	font-family: 'Oxygen';
 	font-size: 25px;
+	/*text-decoration-style: dotted;*/
+	text-align: center;
+	height: 35px;
+	line-height: 30px;
 }
 .phrase {
+	/*border: 5px solid #888;*/
+	height: 10%;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .computerPick {
-	border: 5px solid #cad;
+	background-image: url("../images/nfllogo.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	text-align: center;
+	line-height: 45px;
 	font-size: 35px;
-	color: #add;
-	height: 50%;
+	height: 100%;
 	width: 50%;			
+}
+.scoreboard {
+	background-color: black;
+	margin-left: 30px;
+	border: 5px solid #fff;
+	padding-top: 5px;
+	border-radius: 3%;
+	color: white;
+	width: 80%;
+	height: 45%;
+	/*overflow: auto;*/
+}
+.team {
+	font-family: 'Oxygen';
+	font-size: 24px;
+	font-weight: bolder;
+	width: 33.33%;
+	float: left;
+
 }
 header {
 		color: #fff;
@@ -95,7 +134,7 @@ header {
 @-webkit-keyframes change {
 	from {
 		color: #fff;
-		background-color: #abb;
+		background-color: #FF0066;
 	}
 	to {
 		color: red;
@@ -105,7 +144,7 @@ header {
 @-webkit-keyframes change {
 	from {
 		color: #fff;
-		background-color: #abb;
+		background-color: #FF0066;
 	}
 	to {
 		color: red;
@@ -115,7 +154,7 @@ header {
 @keyframes change {
 	from {
 		color: #fff;
-		background-color: #abb;
+		background-color: #FF0066;
 	}
 	to {
 		color: red;
@@ -125,7 +164,7 @@ header {
 @keyframes change {
 	from {
 		color: #fff;
-		background-color: #abb;
+		background-color: #FF0066;
 	}
 	to {
 		color: red;
