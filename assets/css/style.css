@@ -109,22 +109,50 @@ footer {
 }
 .scoreboard {
 	background-color: black;
-	margin-left: 30px;
+	margin: auto;
 	border: 5px solid #fff;
 	padding-top: 5px;
 	border-radius: 3%;
 	color: white;
 	width: 80%;
-	height: 45%;
+	height: 40%;
 	/*overflow: auto;*/
 }
 .team {
-	font-family: 'Oxygen';
+	font-family: 'Orbitron';
+	/*font-family: 'Oxygen';*/
 	font-size: 24px;
 	font-weight: bolder;
 	width: 33.33%;
 	float: left;
-
+}
+.points, .downs {
+	clear: both;
+	font-family: 'Orbitron';
+	font-size: 20px;
+	font-weight: bolder;
+	width: 100%;
+}
+.point {
+	font-size: 30px;
+	color: orange;
+	float: left;
+	width: 33.33%	
+}
+.down {
+	text-align: right;
+	padding-top: 3px;
+	margin-left: 10px;
+	float: left;
+	width: 23.33%
+}
+.stat {
+	border: 2px solid white;
+	color: orange;
+	margin-left: 2px;
+	float: left;
+	border-radius: 5%;
+	width: 7%;
 }
 header {
 		color: #fff;
